@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <table class="calculator">
+            <tr>
+                <td colspan="2"><h2>Simple Calculator</h2></td>
+            </tr>
+            <h2>Anas Mohamed | 191900138</h2>
+            <tr>
+                <td><label for="num1">Enter the first number:</label></td>
+                <td><input type="text" id="num1" placeholder="Enter first number"></td>
+            </tr>
+            <tr>
+                <td><label for="num2">Enter the second number:</label></td>
+                <td><input type="text" id="num2" placeholder="Enter second number"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="buttons">
+                        <button onclick="add()">Add</button>
+                        <button onclick="subtract()">Subtract</button>
+                        <button onclick="clearInputs()">Clear</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><p id="result"></p></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
